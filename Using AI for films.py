@@ -30,7 +30,7 @@ command = [
     "-af", "afftdn",
     "-af", "loudnorm",
     "-vn",
-    "-c:a", "libmp3lame",
+    "-c:a", "libmp3lame", #перевод в mp3
     "-b:a", "192k",
     audio_out
 ]
